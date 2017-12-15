@@ -2,18 +2,6 @@ html {
   font-family: Roboto, sans-serif;
 }
 
-nav a:focus {
-  outline: 3px solid #fff;
-}
-
-.nav:focus {
-  outline: 3px solid #fff;
-}
-
-.skip-links a:focus {
-  outline: 3px solid #fff;
-}
-
 .section-dark {
   background-color: #000308;
   color: #fff;
@@ -68,8 +56,20 @@ nav a:focus {
   text-decoration: none;
 }
 
+nav a:focus {
+  outline: 3px solid #fff;
+}
+
 .masthead a:hover {
   background-color: rgba(180, 220, 255, .3);
+}
+
+.nav:focus {
+  outline: 3px solid #fff;
+}
+
+.skip-links a:focus {
+  outline: 3px solid #fff;
 }
 
 .techniques {
