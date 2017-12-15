@@ -2,6 +2,18 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+nav a:focus {
+  outline: 3px solid #fff;
+}
+
+.nav:focus {
+  outline: 3px solid #fff;
+}
+
+.skip-links a:focus {
+  outline: 3px solid #fff;
+}
+
 .section-dark {
   background-color: #000308;
   color: #fff;
@@ -46,15 +58,12 @@ html {
   top: 0;
   width: 100%;
   z-index: -1;
-
   transform: translate(.07em, .07em);
-
   color: rgba(180, 220, 255, .6);
 }
 
 .masthead a {
   border-bottom: .2em solid rgba(255, 255, 255, .6);
-
   color: #fff;
   text-decoration: none;
 }
